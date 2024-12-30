@@ -1,0 +1,18 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(93, 93, 236);
+}
+
+.logo-box{
+    background: rgb(255, 255, 255);
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+}
