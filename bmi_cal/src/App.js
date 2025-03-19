@@ -10,7 +10,7 @@ function App() {
     <h1>It will be made soon</h1>
     <h1>It will be made soon</h1>
     <h1>KAB ??!!!</h1>
-    <h1>Today is my birthday !! remember to be happy !</h1>
+    <h1>Bas ab to kal pakka banaungi !!!</h1>
     </div>
   );
 }
