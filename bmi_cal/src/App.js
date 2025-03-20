@@ -1,7 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
 
 function App() {
+  const [weight, setWeight] = useState(0);
+  const [height, setHeight] = useState(0);
+  const [bmi, setBmi] = useState('');
+  const [message, setMessage] = useState('');
+
+
+
+
   return (
     <div className="App">
       <div className = "conntainer">
@@ -9,7 +18,7 @@ function App() {
         <form>
           <div>
             <label>Weight (ibs)</label>
-            <input type="text"  placeholder="Enter your weight" value={weight}/>
+            <input type="text"  placeholder="Enter your weight" value={weight}    />
           </div>
           <div>
             <label>Height (in)</label>
@@ -20,7 +29,10 @@ function App() {
             <button className= 'btn btn-outline' onClick={reload} type='submit'>Reload</button>
           </div>
 
-          <div className='center'> </div>
+          <div className='center'> 
+            <h3>  Your BMI is: {bmi}</h3>
+            <p>{message}</p>
+          </div>
         </form>
       </div>
 
