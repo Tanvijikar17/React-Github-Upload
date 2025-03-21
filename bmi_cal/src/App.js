@@ -18,7 +18,7 @@ function App() {
         <form>
           <div>
             <label>Weight (ibs)</label>
-            <input type="text"  placeholder="Enter your weight" value={weight}    />
+            <input type="text"  placeholder="Enter your weight" value={weight}/>
           </div>
           <div>
             <label>Height (in)</label>
@@ -44,3 +44,6 @@ function App() {
 }
 
 export default App;
+
+
+// We have small way to go
