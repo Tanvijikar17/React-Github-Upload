@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className = "conntainer">
+      <div className = "container">
         <h2>BMI Calculator</h2>
         <form onSubmit={calBmi}>
           <div>
