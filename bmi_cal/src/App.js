@@ -72,9 +72,6 @@ function App() {
 }
 
 export default App;
-export default App;
-export default App;
-export default App;
 
 
 // We have small way to go
